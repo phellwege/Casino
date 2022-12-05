@@ -2,11 +2,11 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css/bundle";
 import { Pagination, Lazy} from "swiper";
-import doge1 from '../static/doge.PNG';
-import doge2 from '../static/doge2.PNG';
-import doge3 from '../static/doge3.PNG';
-import doge4 from '../static/doge4.PNG';
-import doge5 from '../static/doge5.PNG';
+import doge1 from '../../static/doge.PNG';
+import doge2 from '../../static/doge2.PNG';
+import doge3 from '../../static/doge3.PNG';
+import doge4 from '../../static/doge4.PNG';
+import doge5 from '../../static/doge5.PNG';
 import './choosePup.css'
 
 export default () => {
