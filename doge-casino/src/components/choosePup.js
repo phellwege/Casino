@@ -26,14 +26,16 @@ export default () => {
                             <h3>OG Doge</h3>
                             <br/>
                             <img src={doge1} className='dogePortrait' loading='lazy'/>
+                            <br/>
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="DogeSelectionWrap">
-                            <h3>OG Doge</h3>
+                            <h3>Collie Doge</h3>
                             <br/>
                             <img src={doge2} className='dogePortrait' loading='lazy'/>
+                            <br/>
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
@@ -42,6 +44,7 @@ export default () => {
                             <h3>OG Doge</h3>
                             <br/>
                             <img src={doge3} className='dogePortrait' loading='lazy'/>
+                            <br/>
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
@@ -50,6 +53,7 @@ export default () => {
                             <h3>OG Doge</h3>
                             <br/>
                             <img src={doge4} className='dogePortrait' loading='lazy'/>
+                            <br/>
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
@@ -58,6 +62,7 @@ export default () => {
                             <h3>OG Doge</h3>
                             <br/>
                             <img src={doge5} className='dogePortrait' loading='lazy'/>
+                            <br/>
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
