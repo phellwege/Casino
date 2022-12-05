@@ -13,7 +13,6 @@ export default () => {
     return (
         <>
             <div className="page_wrap" id='choosePup'>
-                
                 <Swiper
                     pagination={{
                     dynamicBullets: true,
@@ -41,7 +40,7 @@ export default () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="DogeSelectionWrap">
-                            <h3>OG Doge</h3>
+                            <h3>Mutt Doge</h3>
                             <br/>
                             <img src={doge3} className='dogePortrait' loading='lazy'/>
                             <br/>
@@ -50,7 +49,7 @@ export default () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="DogeSelectionWrap">
-                            <h3>OG Doge</h3>
+                            <h3>Aussie Doge</h3>
                             <br/>
                             <img src={doge4} className='dogePortrait' loading='lazy'/>
                             <br/>
@@ -59,7 +58,7 @@ export default () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className="DogeSelectionWrap">
-                            <h3>OG Doge</h3>
+                            <h3>Spaniel Doge</h3>
                             <br/>
                             <img src={doge5} className='dogePortrait' loading='lazy'/>
                             <br/>
