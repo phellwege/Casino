@@ -1,0 +1,17 @@
+.page_wrap {
+    width: 100vw;
+    height: 100vh;
+}
+.dogeSwiper {
+    width: 40%;
+    height: 50%;
+}
+.dogePortrait {
+    width: 25%;
+    border-radius: 5% 20% 5%;
+}
+.DogeSelectionWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
