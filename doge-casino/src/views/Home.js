@@ -6,7 +6,7 @@ import ChoosePup from "../components/choosePup";
 export default () => {
     return (
         <>
-            {/* <Header/> */}
+            <Header/>
                 <ChoosePup/>
             {/* <Footer/> */}
         </>
