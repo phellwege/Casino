@@ -14,6 +14,7 @@ export default () => {
         <>
             <div className="page_wrap" id='choosePup'>
                 <Swiper
+                    loop={true}
                     pagination={{
                     dynamicBullets: true,
                     }}
