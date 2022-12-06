@@ -10,23 +10,25 @@ export default () => {
                     <ul>
                         <li>
                             <h3>
-                                this
+                                <a href='/'>this</a>
                             </h3>
                         </li>
                         <li>
                             <h3>
-                                this
+                                <a href='/'>this</a>
                             </h3>
                         </li>
                         <li>
                             <h3>
-                                this
+                                <a href='/'>this</a>
                             </h3>
                         </li>
                     </ul>
                 </div>
                 <div className="headerRight">
-                    <img src={logo} alt='logo' id='headerLogo'/>
+                    <a href='/'>
+                        <img src={logo} alt='logo' id='headerLogo'/>
+                    </a>
                 </div>
             </div>
         </>
