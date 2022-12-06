@@ -10,8 +10,14 @@
     height: 100%;
 }
 .headerLeft {
-    margin-left: 5%;
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
+    width: 35%;
+    align-self: center;
+}
+.headerLeft ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 .headerRight {
     margin-right: 5%;
