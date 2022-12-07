@@ -1,4 +1,4 @@
-const user = require('../models/userModel');
+const User = require('../models/userModel');
 module.exports = {
     index:(request, response) => {
         User.find().sort({username:1})
