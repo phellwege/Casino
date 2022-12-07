@@ -16,11 +16,13 @@
     justify-content: space-around;
     width: 80%;
     margin-left: 10%;
+    height: 90%;
     margin-top: 2.5%;
 }
 #closeIcon {
-    width: 5%;
-    margin-left: 100%;
+    position: absolute;
+    margin-left: 80%;
+    margin-bottom: 40%;
     padding: 1%;
     color: orange;
 }

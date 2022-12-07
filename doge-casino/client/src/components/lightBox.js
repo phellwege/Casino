@@ -19,12 +19,9 @@ const {active}=props;
     return (
         <div className="lightBoxWrap">
             <div className="lightBoxBox">
-                <MdClose id='closeIcon' onClick={lightBoxShow} alt='close icon' size={30}/>
+                <MdClose size={30} id='closeIcon' onClick={lightBoxShow}/>
                 <div className="lightBoxContainer">
                     <ChoosePup/>
-                    <div className='lightBoxText'>
-                        <h4 id='lightboxReturn' onClick={lightBoxShow}>Return</h4>
-                    </div>
                 </div>
             </div>
         </div>
