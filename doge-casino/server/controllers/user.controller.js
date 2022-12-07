@@ -1,7 +1,7 @@
 const user = require('../models/userModel');
 module.exports = {
     index:(request, response) => {
-        User.find().sort({name:1})
+        User.find().sort({username:1})
         .then(data => response.json({results:data}))
         .catch(err => response.json(err.errors));
 },
@@ -28,7 +28,7 @@ getAllUsers: (request, response) => {
 
 updateExistingUser: (request, response) => {
     User.findOneAndUpdate({_id:request.params.id}, request.body, {new:true, runValidators:true})
-        .then(updateExistingAuthor => response.json(updateExistingAuthor))
+        .then(updateExistingUser => response.json(updateExistingUser))
         .catch(err => response.json(err.errors));
 },
 
