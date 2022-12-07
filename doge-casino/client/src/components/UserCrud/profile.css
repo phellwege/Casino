@@ -1,0 +1,7 @@
+.profileWrapper {
+    margin-top: 10%;
+}
+.profileDivs {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,6 @@
+.walletWrap {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:15%;
+}
