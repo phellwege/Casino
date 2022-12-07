@@ -1,9 +1,9 @@
-const AuthorController = require('../controllers/cardDeck.controller');
+const UserController = require('../controllers/user.controller');
 module.exports = function(app){
-    app.get('/api', AuthorController.index);
-    app.get('/api/authors', AuthorController.getAllAuthors);
-    app.post('/api/author', AuthorController.createAuthor);
-    app.put("/api/author/:id/edit", AuthorController.updateExistingAuthor);
-    app.delete('/api/author/delete/:id', AuthorController.deleteAuthor);
-    app.get('/api/authors/:id', AuthorController.getAuthor);
+    app.get('/api', UserController.index);
+    app.get('/api/authors', UserController.getAllUsers);
+    app.post('/api/author', UserController.createUser);
+    app.put("/api/author/:id/edit", UserController.updateExistingUser);
+    app.delete('/api/author/delete/:id', UserController.deleteUser);
+    app.get('/api/authors/:id', UserController.getUser);
 }

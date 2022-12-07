@@ -1,4 +1,4 @@
-const AuthorController = require('../controllers/cardDeck.controller');
+const cardDeckController = require('../controllers/cardDeck.controller');
 module.exports = function(app){
     app.get('/api', AuthorController.index);
     app.get('/api/authors', AuthorController.getAllAuthors);

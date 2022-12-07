@@ -5,7 +5,7 @@
     width: 40%;
     height: 50vh;
 }
-.dogePortrait {
+img.dogePortrait {
     width: 25%;
     border-radius: 5% 20% 5%;
 }

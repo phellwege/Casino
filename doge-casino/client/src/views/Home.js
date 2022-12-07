@@ -8,7 +8,7 @@ export default () => {
         <>
             <Header/>
                 <ChoosePup/>
-            {/* <Footer/> */}
+            <Footer/>
         </>
     )
 }
