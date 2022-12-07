@@ -12,7 +12,23 @@ export default () => {
                 </div>
                 <div>
                     <p>Buy More Coins</p>
-                    <button>Buy</button>
+                    <ul>
+                        <li>
+                            <h4>10</h4>
+                            <p>USD cost</p>
+                            <button>Buy</button>
+                        </li>
+                        <li>
+                            <h4>100</h4>
+                            <p>USD cost</p>
+                            <button>Buy</button>
+                        </li>
+                        <li>
+                            <h4>1,000</h4>
+                            <p>USD cost</p>
+                            <button>Buy</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <h4>lifetime Winnings</h4>

@@ -5,3 +5,14 @@
     width: 80%;
     margin-left: 10%;
 }
+.walletWrap ul {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+.walletWrap ul li {
+    padding: 5%;
+    margin: 2.5%;
+    width: 30%;
+    border: 1px solid black;
+}
