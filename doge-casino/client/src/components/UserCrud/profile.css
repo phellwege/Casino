@@ -3,5 +3,18 @@
 }
 .profileDivs {
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    margin-left: 10%;
+    width: 80%;
+}
+img.profileAvatar {
+    width: 20%;
+    border-radius: 7.5% 25% 7.5%;
+    padding: 5%;
+    background-color: brown;
+    border: 3.5px solid gray;
+    margin-left: 20%;
+}
+.profileTopRight {
+    text-align: left;
 }

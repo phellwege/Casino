@@ -29,7 +29,7 @@
 }
 .lightBoxContainer {
     background-color: white;
-    border-radius: 7.5% 25% 7.5%;
+    border-radius: 1em;
     color: black;
 }
 #lightboxReturn {
