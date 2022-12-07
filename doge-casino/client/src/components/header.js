@@ -10,12 +10,12 @@ export default () => {
                     <ul>
                         <li>
                             <h3>
-                                <a href='/'>this</a>
+                                <a href='/gameSelector'>Select a Game</a>
                             </h3>
                         </li>
                         <li>
                             <h3>
-                                <a href='/'>this</a>
+                                <a href='/userProfile'>Profile</a>
                             </h3>
                         </li>
                         <li>

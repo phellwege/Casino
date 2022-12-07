@@ -14,9 +14,9 @@ app.use(express.json());
 app.use(cors());
 app.use(express.urlencoded({ extended: true })); // This is new
 
-module.exports.getAllAuthors = (request, response) => {
-    Author.find({})
-        .then(authors => response.json(authors))
+module.exports.getAllUsers = (request, response) => {
+    User.find({})
+        .then(users => response.json(users))
         .catch(err => response.json(err))
 }
 
