@@ -7,7 +7,6 @@ export default () => {
     return (
         <>
             <Header/>
-                <ChoosePup/>
             <Footer/>
         </>
     )

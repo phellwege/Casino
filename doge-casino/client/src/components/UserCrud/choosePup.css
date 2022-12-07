@@ -1,13 +1,8 @@
-#choosePup {
-    margin-top: 10%;
-}
 .dogeSwiper {
-    width: 40%;
-    height: 50vh;
+    height: 80%;
 }
 img.dogePortrait {
     width: 25%;
-    border-radius: 5% 20% 5%;
 }
 .DogeSelectionWrap {
     display: flex;
@@ -16,4 +11,5 @@ img.dogePortrait {
 }
 .swiper-pagination-bullet {
     background-color: darkorange;
+    bottom:0px;
 }

@@ -66,6 +66,8 @@ export default () => {
                             <button>Select</button>
                         </div>  
                     </SwiperSlide>
+                    <br/>
+                    <br/>
                 </Swiper>
             </div>
         </>
