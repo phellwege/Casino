@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect, useState, useRef } from "react";
+import axios from 'axios';
+import {navigate} from '@reach/router';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import "swiper/css/bundle";
 import { Pagination, Lazy} from "swiper";
@@ -10,6 +12,27 @@ import doge5 from '../../static/doge5.PNG';
 import './choosePup.css'
 
 export default () => {
+    const [avatar, setAvatar] = useState(""); 
+    const [errors, setErrors] = useState(null);
+    //handler when the form is submitted
+
+    const onSubmitHandler = e => {
+        e.preventDefault();
+        const data = {
+            avatar: avatar
+        };
+        axios.post('http://localhost:8000/api/user',
+            data,
+        )
+            .then(res => {
+                console.log(res)
+                navigate('/')
+            })
+            .catch(err=>{
+                console.log(err.response.data.errors);
+                setErrors(err.response.data.errors);
+            });
+        }
     return (
         <>
             <div className="page_wrap" id='choosePup'>
@@ -25,9 +48,9 @@ export default () => {
                         <div className="DogeSelectionWrap">
                             <h3>OG Doge</h3>
                             <br/>
-                            <img src={doge1} className='dogePortrait' loading='lazy'/>
+                            <img src={doge1} className='dogePortrait' loading='lazy' value={avatar}/>
                             <br/>
-                            <button>Select</button>
+                            <button onClick={onSubmitHandler}>Select</button>
                         </div>  
                     </SwiperSlide>
                     <SwiperSlide>

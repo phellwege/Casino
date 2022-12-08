@@ -7,7 +7,7 @@ export default (props) => {
         
     const lightBoxShow = () => {
         const x = document.getElementsByClassName('lightBoxWrap')[0];
-        if(x.style.display == 'block') {
+        if(x.style.display === 'block') {
             x.style.display = 'none';
         }
         else {

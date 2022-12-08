@@ -6,8 +6,7 @@ const UserSchema = new mongoose.Schema({
         minlength: [3, "name must be at least 3 characters"]
     },
     avatar: {
-        type: object,
-        required: [ true,""],
+        type: file,
         default: '../../client/src/static/doge.PNG'
     },
     balance: {

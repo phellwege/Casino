@@ -1,5 +1,7 @@
 //this holds cards for players to select a game to play
 import React, { useEffect, useRef } from "react";
+import axios from 'axios';
+import {navigate} from '@reach/router';
 import LightBox from '../../components/lightBox';
 import Avatar from '../../static/doge.PNG'
 import './profile.css'
