@@ -10,10 +10,16 @@ const UserSchema = new mongoose.Schema({
         required: [ true,""],
         default: '../../client/src/static/doge.PNG'
     },
-    walletBalance: {
+    balance: {
         type: Number,
         required: [ true, ""],
         default: 0
+    },
+    bio: {
+        type: String,
+        required: [ true, ""],
+        default: 'write your own bio here',
+        minlength: [5, 'bio must be at least 5 characters']
     }
 }, { timestamps: true });
 module.exports.User = mongoose.model('User', UserSchema);
