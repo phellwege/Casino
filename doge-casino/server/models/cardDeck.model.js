@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
-const AuthorSchema = new mongoose.Schema({
-    name: { 
-        type: String,
-        required: [ true,"Something must be inputted"],
+const CardDeckSchema = new mongoose.Schema({
+    card: { 
+        type: object,
+        required: true,
         minlength: [3, "name must be at least 3 characters"]
     }
-}, { timestamps: true });
-module.exports.Author = mongoose.model('Author', AuthorSchema);
+}, { timestamps: false });
+module.exports.CardDeck = mongoose.model('CardDeck', CardDeckSchema);

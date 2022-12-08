@@ -1,9 +1,9 @@
-const cardDeckController = require('../controllers/cardDeck.controller');
+const CardDeckController = require('../controllers/cardDeck.controller');
 module.exports = function(app){
-    app.get('/api', AuthorController.index);
-    app.get('/api/authors', AuthorController.getAllAuthors);
-    app.post('/api/author', AuthorController.createAuthor);
-    app.put("/api/author/:id/edit", AuthorController.updateExistingAuthor);
-    app.delete('/api/author/delete/:id', AuthorController.deleteAuthor);
-    app.get('/api/authors/:id', AuthorController.getAuthor);
+    app.get('/api', CardDeckController.index);
+    app.get('/api/cardDecks', CardDeckController.getAllCardDecks);
+    app.post('/api/cardDeck', CardDeckController.createCardDeck);
+    app.put("/api/cardDeck/:id/edit", CardDeckController.updateExistingCardDeck);
+    app.delete('/api/cardDeck/delete/:id', CardDeckController.deleteCardDeck);
+    app.get('/api/cardDecks/:id', CardDeckController.getCardDeck);
 }
